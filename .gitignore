@@ -1,0 +1,58 @@
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+.history/
+*.swp
+
+# ===== 日志 / 临时 =====
+*.log
+logs/
+tmp/
+*.tmp
+
+# ===== 环境变量（只提交 .example 模板）=====
+.env
+.env.local
+.env.*.local
+
+# ===== 前端（Node 系）=====
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+.pnpm-store/
+.eslintcache
+.stylelintcache
+
+# ===== 后端 Java =====
+target/
+*.class
+*.jar.original
+
+# ===== 后端 Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+
+# ===== 数据库导出 / 本地数据 =====
+*.dump
+*.sqlite3
+*.db
+
+# ===== 测试产物（按需放开：截图与结果作为证据时可提交）=====
+# test/**/results/
+# test/**/screenshots/
